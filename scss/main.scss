@@ -1,41 +1,37 @@
-@import './utils/var';
+@import "./utils/var";
 
-@import './base/common';
+@import "./utils/mixins";
 
-@import './base/reset';
- 
-@import './utils/hidden';
+@import "./base/common";
 
-@import './components/container';
-  
-@import './layouts/section';
-  
-@import './layouts/header';
-  
-@import './layouts/hero-section';
+@import "./base/reset";
 
-@import './layouts/benefits-section';
+@import "./utils/hidden";
 
-@import './layouts/work-section';
+@import "./components/container";
 
-@import './layouts/team-section';
-  
-@import './layouts/footer';
- 
-@import './layouts/portfolio-section';
-  
-@import './components/address-block';
+@import "./layouts/section";
 
-@import './layouts/costumers-section';
+@import "./layouts/header";
 
-@import './components/soc';
-  
-@import './components/_soc-footer.scss';
-  
-@import './components/modal';
-  
+@import "./layouts/hero-section";
 
-  
-  
- 
-  
+@import "./layouts/benefits-section";
+
+@import "./layouts/work-section";
+
+@import "./layouts/team-section";
+
+@import "./layouts/footer";
+
+@import "./layouts/portfolio-section";
+
+@import "./components/address-block";
+
+@import "./layouts/costumers-section";
+
+@import "./components/soc";
+
+@import "./components/_soc-footer.scss";
+
+@import "./components/modal";
