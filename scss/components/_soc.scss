@@ -1,0 +1,31 @@
+
+  
+  .icon-soc-list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  
+    margin-top: 16px;
+  }
+  
+  .soc-link {
+    display: flex;
+  
+    align-items: center;
+    justify-content: center;
+  
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    fill: #afb1b8;
+  
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+      &:hover,&:focus{
+        background-color: $link-logo-blue;
+        fill: #ffffff;
+      }
+  }
+  
+  
