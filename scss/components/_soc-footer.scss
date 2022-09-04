@@ -1,45 +1,42 @@
 .icon-soc-list-footer {
-    display: flex;
-    gap: 10px;
-  
-    margin-top: 20px;
-  }
-  
-  .container.footer-content {
-    display: flex;
-  }
-  
-  .soc-footer-title {
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-  
-    color: $white-color;
-  }
-  
-  .soc-footer {
-    margin-left: 70px;
-  
-    padding-top: 12px;
-  }
-  
-  .footer-address {
-    width: 231px;
-  }
-  
-  .soc-link.footer-soc {
-    background-color: rgba(255, 255, 255, 0.1);
-    fill: $white-color;
-  
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    &:hover,&:focus{
-      background-color: $link-logo-blue;
-    }
+  display: flex;
+  gap: 10px;
 
+  margin-top: 20px;
+}
+
+.container.footer-content {
+  display: flex;
+}
+
+.soc-footer-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-align: center;
+
+  color: $white-color;
+}
+
+.soc-footer {
+  margin-top: 60px;
+}
+
+.footer-address {
+  width: 231px;
+}
+
+.soc-link.footer-soc {
+  background-color: rgba(255, 255, 255, 0.1);
+  fill: $white-color;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    background-color: $link-logo-blue;
   }
-  
-  
+}
