@@ -21,7 +21,7 @@
     <title>HW-8</title>
   </head>
   <body>
-    <!--     <header class="header">
+<!--     <header class="header">
       <div class="container header-container">
         <a lang="en" href="./index.html" class="logo-header logo link"
           ><span class="logo-blue">Web</span>Studio</a
@@ -61,17 +61,17 @@
       </div>
     </header>
     <main> -->
-    <section class="hero-section">
-      <div class="container">
-        <h1 class="hero-section__title">
-          Ефективні рішення для вашого бізнесу
-        </h1>
-        <button data-modal-open type="button" class="hero-section__btn btn">
-          Замовити послугу
-        </button>
-      </div>
-    </section>
-    <!--     <section class="benefits section">
+      <section class="hero-section">
+        <div class="container">
+          <h1 class="hero-section__title">
+            Ефективні рішення для вашого бізнесу
+          </h1>
+          <button data-modal-open type="button" class="hero-section__btn btn">
+            Замовити послугу
+          </button>
+        </div>
+      </section>
+      <section class="benefits section">
         <div class="container">
           <h2 class="visually-hidden">Переваги WebStudio</h2>
           <ul class="benefits__list list">
@@ -126,7 +126,7 @@
         </div>
       </section>
 
-      <section class="work section">
+<!--       <section class="work section">
         <div class="container">
           <h2 class="work__title">Чим ми займаємося</h2>
           <ul class="work__list list">
@@ -171,17 +171,27 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <section class="team-section section">
         <div class="container">
           <h2 class="team-section-title">Наша команда</h2>
           <ul class="team-list list">
             <li class="team-item">
-              <img
-                width="270"
-                src="./images/team-member-1.jpg"
-                alt="Product Designer Ігор Дем'яненко"
-              />
+					<picture>
+						<source
+                  srcset="
+                    ./images/team-mob-1-1x.jpg 1x,
+                    ./images/team-mob-1-2x.jpg 2x
+                  "
+                  media="(min-width:480px)"
+                />
+						<img
+						width="450px"
+						src="./images/team-mob-1-1x.jpg"
+						alt="UI Designer Михайло Єрмаков"
+						class="img img-team"
+					 />
+					</picture>
               <div class="team-caption-block">
                 <h3 class="team-item-title">Ігор Дем'яненко</h3>
                 <p class="team-item-caption" lang="en">Product Designer</p>
@@ -302,12 +312,12 @@
               </div>
             </li>
             <li class="team-item">
-              <img
-                width="270"
-                src="./images/team-member-4.jpg"
-                alt="UI Designer Михайло Єрмаков"
-                class="img"
-              />
+					<img
+					width="270"
+					src="./images/team-member-4.jpg"
+					alt="UI Designer Михайло Єрмаков"
+					class="img"
+				 />
               <div class="team-caption-block">
                 <h3 class="team-item-title">Михайло Єрмаков</h3>
                 <p class="team-item-caption" lang="en">UI Designer</p>
@@ -347,7 +357,7 @@
         </div>
       </section>
 
-      <section class="section">
+<!--       <section class="section">
         <div class="container">
           <h2 class="costumers-title">Постійні клієнти</h2>
           <ul class="costumers-list list">
@@ -395,9 +405,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
     </main>
-    <footer class="footer">
+<!--     <footer class="footer">
       <div class="container footer-content">
         <div class="footer-address">
           <a lang="en" href="./index.html" class="logo-footer logo link"
@@ -467,8 +477,8 @@
           </div>
         </form>
       </div>
-    </footer>
- -->
+    </footer> -->
+
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button data-modal-close type="button" class="modal-close btn">
