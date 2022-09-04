@@ -658,7 +658,9 @@ ul {
   display: -ms-flexbox;
   display: flex;
   gap: 30px;
-  margin-top: 50px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 30px;
 }
 
 .costumers-link {
@@ -672,7 +674,7 @@ ul {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 170px;
+  width: 100%;
   height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
@@ -682,6 +684,10 @@ ul {
 .costumers-link:hover, .costumers-link:focus {
   border-color: #2196f3;
   color: #2196f3;
+}
+
+.costumers-item {
+  width: calc((100% - 30px) / 2);
 }
 
 .costumers-icon {
