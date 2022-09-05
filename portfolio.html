@@ -21,7 +21,7 @@
     <title>Portfolio</title>
   </head>
   <body>
-    <header class="header header-portfolio">
+    <!-- <header class="header header-portfolio">
       <div class="container header-container">
         <a lang="en" href="./index.html" class="logo-header logo link"
           ><span class="logo-blue">Web</span>Studio</a
@@ -61,14 +61,14 @@
           </li>
         </ul>
       </div>
-    </header>
+    </header> -->
     <main>
       <section class="section">
-        <div class="container">
+        <div class="portfolio-container container">
           <h1 class="visually-hidden">Portfolio</h1>
           <ul class="list portfolio-nav-list">
             <li class="portfolio-list-item">
-              <button class="portfolio-btn btn" type="button">Все</button>
+              <button class="portfolio-btn btn" type="button">Усі</button>
             </li>
             <li class="portfolio-list-item">
               <button class="portfolio-btn btn" type="button">Веб-сайти</button>
@@ -87,12 +87,20 @@
             <li class="works-list-item">
               <a href="" class="works-link link">
                 <div class="portfolio-contain-action">
-                  <img
-                    width="370"
-                    src="./images/portfolio-1.jpg"
+						<source
+                  srcset="
+                    ./images/portfolio-1-1x.jpg 1x,
+                    ./images/portfolio-1-2x.jpg 2x
+                  "
+                  media="(min-width:480px)"
+                />
+                <img
+                    width="450"
+                    src="./images/portfolio-1-1x.jpg"
                     alt="Технокряк"
-                    class="img"
+                    class="img img-portfolio"
                   />
+              </picture>
                   <p class="portfolio-subscribe">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -108,12 +116,20 @@
             <li class="works-list-item">
               <a href="" class="works-link link">
                 <div class="portfolio-contain-action">
-                  <img
-                    width="370"
-                    src="./images/portfolio-2.jpg"
+                  <source
+                  srcset="
+                    ./images/portfolio-2-1x.jpg 1x,
+                    ./images/portfolio-2-2x.jpg 2x
+                  "
+                  media="(min-width:480px)"
+                />
+                <img
+                    width="450"
+                    src="./images/portfolio-2-1x.jpg"
                     alt="Постер New Orlean vs Golden Star"
-                    class="img"
+                    class="img img-portfolio"
                   />
+              </picture>
                   <p class="portfolio-subscribe">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -132,12 +148,20 @@
             <li class="works-list-item">
               <a href="" class="works-link link">
                 <div class="portfolio-contain-action">
-                  <img
-                    width="370"
-                    src="./images/portfolio-3.jpg"
+                  <source
+                  srcset="
+                    ./images/portfolio-3-1x.jpg 1x,
+                    ./images/portfolio-3-2x.jpg 2x
+                  "
+                  media="(min-width:480px)"
+                />
+                <img
+                    width="450"
+                    src="./images/portfolio-3-1x.jpg"
                     alt="Ресторан Seafood"
-                    class="img"
+                    class="img img-portfolio"
                   />
+              </picture>
                   <p class="portfolio-subscribe">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -154,12 +178,20 @@
             <li class="works-list-item">
               <a href="" class="works-link link">
                 <div class="portfolio-contain-action">
-                  <img
-                    width="370"
-                    src="./images/portfolio-4.jpg"
+                  <source
+                  srcset="
+                    ./images/portfolio-4-1x.jpg 1x,
+                    ./images/portfolio-4-2x.jpg 2x
+                  "
+                  media="(min-width:480px)"
+                />
+                <img
+                    width="450"
+                    src="./images/portfolio-4-1x.jpg"
                     alt="Проєкт Prime"
-                    class="img"
+                    class="img img-portfolio"
                   />
+              </picture>
                   <p class="portfolio-subscribe">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -176,12 +208,20 @@
             <li class="works-list-item">
               <a href="" class="works-link link">
                 <div class="portfolio-contain-action">
-                  <img
-                    width="370"
-                    src="./images/portfolio-5.jpg"
+                  <source
+                  srcset="
+                    ./images/portfolio-5-1x.jpg 1x,
+                    ./images/portfolio-5-2x.jpg 2x
+                  "
+                  media="(min-width:480px)"
+                />
+                <img
+                    width="450"
+                    src="./images/portfolio-5-1x.jpg"
                     alt="Проєкт Boxes"
-                    class="img"
+                    class="img img-portfolio"
                   />
+              </picture>
                   <p class="portfolio-subscribe">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -198,12 +238,20 @@
             <li class="works-list-item">
               <a href="" class="works-link link">
                 <div class="portfolio-contain-action">
-                  <img
-                    width="370"
-                    src="./images/portfolio-6.jpg"
-                    alt="Inspiration has no Borders"
-                    class="img"
+						<source
+                  srcset="
+                    ./images/portfolio-6-1x.jpg 1x,
+                    ./images/portfolio-6-2x.jpg 2x
+                  "
+                  media="(min-width:480px)"
+                />
+                <img
+                    width="450"
+                    src="./images/portfolio-6-1x.jpg"
+                    alt="Inspiration has no borders"
+                    class="img img-portfolio"
                   />
+              </picture>
                   <p class="portfolio-subscribe">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -220,12 +268,20 @@
             <li class="works-list-item">
               <a href="" class="works-link link">
                 <div class="portfolio-contain-action">
-                  <img
-                    width="370"
-                    src="./images/portfolio-7.jpg"
+						<source
+                  srcset="
+                    ./images/portfolio-7-1x.jpg 1x,
+                    ./images/portfolio-7-2x.jpg 2x
+                  "
+                  media="(min-width:480px)"
+                />
+                <img
+                    width="450"
+                    src="./images/portfolio-7-1x.jpg"
                     alt="Видання Limited Edition"
-                    class="img"
+                    class="img img-portfolio"
                   />
+              </picture>
                   <p class="portfolio-subscribe">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -242,12 +298,20 @@
             <li class="works-list-item">
               <a href="" class="works-link link">
                 <div class="portfolio-contain-action">
-                  <img
-                    width="370"
-                    src="./images/portfolio-8.jpg"
+                  <source
+                  srcset="
+                    ./images/portfolio-8-1x.jpg 1x,
+                    ./images/portfolio-8-2x.jpg 2x
+                  "
+                  media="(min-width:480px)"
+                />
+                <img
+                    width="450"
+                    src="./images/portfolio-8-1x.jpg"
                     alt="Проект LAB"
-                    class="img"
+                    class="img img-portfolio"
                   />
+              </picture>
                   <p class="portfolio-subscribe">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -264,12 +328,20 @@
             <li class="works-list-item">
               <a href="" class="works-link link">
                 <div class="portfolio-contain-action">
-                  <img
-                    width="370"
-                    src="./images/portfolio-9.jpg"
+                  <source
+                  srcset="
+                    ./images/portfolio-9-1x.jpg 1x,
+                    ./images/portfolio-9-2x.jpg 2x
+                  "
+                  media="(min-width:480px)"
+                />
+                <img
+                    width="450"
+                    src="./images/portfolio-9-1x.jpg"
                     alt="Growing Business"
-                    class="img"
+                    class="img img-portfolio"
                   />
+              </picture>
                   <p class="portfolio-subscribe">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
