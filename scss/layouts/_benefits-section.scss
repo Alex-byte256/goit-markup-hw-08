@@ -19,10 +19,17 @@
   display: flex;
   flex-direction: column;
   gap: 30px;
+  @include tablet {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 }
 
 .benefits__item {
   width: 100%;
+  @include tablet {
+    width: calc((100% - 1 * 30px) / 2);
+  }
 }
 
 .benefits__icon-bg {

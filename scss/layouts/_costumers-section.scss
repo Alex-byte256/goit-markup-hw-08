@@ -42,6 +42,9 @@
 
 .costumers-item {
   width: calc((100% - 1 * 30px) / 2);
+  @include tablet {
+    width: calc((100% - 2 * 30px) / 3);
+  }
 }
 
 .costumers-icon {

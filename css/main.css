@@ -62,6 +62,11 @@ ul {
     width: 448px;
   }
 }
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
 
 .section {
   padding-top: 60px;
@@ -274,9 +279,24 @@ ul {
           flex-direction: column;
   gap: 30px;
 }
+@media screen and (min-width: 768px) {
+  .benefits__list {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
 
 .benefits__item {
   width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .benefits__item {
+    width: calc((100% - 30px) / 2);
+  }
 }
 
 .benefits__icon-bg {
@@ -388,6 +408,16 @@ ul {
           flex-direction: column;
   gap: 30px;
 }
+@media screen and (min-width: 768px) {
+  .team-list {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
 
 .team-caption-block {
   padding-top: 30px;
@@ -400,6 +430,11 @@ ul {
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+}
+@media screen and (min-width: 768px) {
+  .team-item {
+    width: calc((100% - 30px) / 2);
+  }
 }
 
 .img-team {
@@ -748,6 +783,11 @@ ul {
 
 .costumers-item {
   width: calc((100% - 30px) / 2);
+}
+@media screen and (min-width: 768px) {
+  .costumers-item {
+    width: calc((100% - 60px) / 3);
+  }
 }
 
 .costumers-icon {

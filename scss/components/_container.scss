@@ -6,4 +6,7 @@
   @include mobile {
     width: 448px;
   }
+  @include tablet {
+    width: 768px;
+  }
 }
