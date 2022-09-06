@@ -24,6 +24,9 @@
 
 .soc-footer {
   margin-top: 60px;
+  @include tablet {
+    margin-top: 5px;
+  }
 }
 
 .footer-address {
