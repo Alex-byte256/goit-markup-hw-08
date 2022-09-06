@@ -126,11 +126,6 @@ ul {
   margin-right: 10px;
 }
 
-.header {
-  padding-top: 6px;
-  padding-bottom: 6px;
-}
-
 .header-nav {
   display: -webkit-box;
   display: -ms-flexbox;
