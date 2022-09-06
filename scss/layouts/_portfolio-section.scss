@@ -27,6 +27,10 @@
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+
+  @include tablet {
+    width: 304px;
+  }
 }
 .works-item-caption {
   font-size: 16px;
@@ -41,6 +45,11 @@
   max-width: 326px;
   row-gap: 8px;
   column-gap: 15px;
+
+  @include tablet {
+    max-width: 100%;
+    justify-content: center;
+  }
 }
 
 /* .portfolio-list-item:not(:last-child) {
@@ -118,4 +127,13 @@
 
 .img-portfolio {
   max-width: 100%;
+  @include tablet {
+    width: 354px;
+  }
+}
+
+@include tablet {
+  .works-list-item:first-child .portfolio-caption-block {
+    padding: 38px 24px;
+  }
 }
