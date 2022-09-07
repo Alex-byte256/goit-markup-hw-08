@@ -21,7 +21,7 @@
     <title>HW-8</title>
   </head>
   <body>
-    <header class="header">
+    <!--    <header class="header">
       <div class="container header-container">
         <a lang="en" href="./index.html" class="logo-header logo link"
           ><span class="logo-blue">Web</span>Studio</a
@@ -59,8 +59,25 @@
               >
             </li>
           </ul>
-       
+    </header> -->
+
+    <header class="page-header">
+      <div class="container">
+        <a lang="en" href="./index.html" class="logo-header logo link"
+          ><span class="logo-blue">Web</span>Studio</a
+        >
+        <button
+          class="menu-toggle js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg width="40" height="40">
+            <use href="./images/icons.svg#icon-menu_40px"></use>
+          </svg>
+        </button>
+      </div>
     </header>
+
     <main>
       <section class="hero-section">
         <div class="container">
@@ -127,27 +144,27 @@
         </div>
       </section>
 
-            <section class="work section">
+      <section class="work section">
         <div class="container">
           <h2 class="work__title">Чим ми займаємося</h2>
           <ul class="work__list list">
             <li class="work__item">
               <div class="work__subscribe-wrap">
-					<picture>
-						<source
-							srcset="
-							  ./images/benefits-1-1x.jpg    1x,
-							  ./images/benefits-1-2x.jpg  2x
-							"
-							media="(min-width:1200px)"
-						 />
-						 <img
-                  src="./images/benefits-1-1x.jpg"
-                  width="370"
-                  alt="розробка ПЗ"
-                  class="work__img img"
-                />
-					  </picture>
+                <picture>
+                  <source
+                    srcset="
+                      ./images/benefits-1-1x.jpg 1x,
+                      ./images/benefits-1-2x.jpg 2x
+                    "
+                    media="(min-width:1200px)"
+                  />
+                  <img
+                    src="./images/benefits-1-1x.jpg"
+                    width="370"
+                    alt="розробка ПЗ"
+                    class="work__img img"
+                  />
+                </picture>
                 <div class="work__subscribe-bg">
                   <p class="work__subscribe">Десктопні додатки</p>
                 </div>
@@ -155,19 +172,19 @@
             </li>
             <li class="work__item">
               <div class="work__subscribe-wrap">
-					<source
-					srcset="
-					  ./images/benefits-2-1x.jpg    1x,
-					  ./images/benefits-2-2x.jpg  2x
-					"
-					media="(min-width:1200px)"
-				 />
-				 <img
-				src="./images/benefits-2-1x.jpg"
-				width="370"
-				alt="розробка ПЗ"
-				class="work__img img"
-			 />
+                <source
+                  srcset="
+                    ./images/benefits-2-1x.jpg 1x,
+                    ./images/benefits-2-2x.jpg 2x
+                  "
+                  media="(min-width:1200px)"
+                />
+                <img
+                  src="./images/benefits-2-1x.jpg"
+                  width="370"
+                  alt="розробка ПЗ"
+                  class="work__img img"
+                />
                 <div class="work__subscribe-bg">
                   <p class="work__subscribe">Мобільні додатки</p>
                 </div>
@@ -175,19 +192,19 @@
             </li>
             <li class="work__item">
               <div class="work__subscribe-wrap">
-					<source
-					srcset="
-					  ./images/benefits-3-1x.jpg    1x,
-					  ./images/benefits-3-2x.jpg  2x
-					"
-					media="(min-width:1200px)"
-				 />
-				 <img
-				src="./images/benefits-3-1x.jpg"
-				width="370"
-				alt="розробка ПЗ"
-				class="work__img img"
-			 />
+                <source
+                  srcset="
+                    ./images/benefits-3-1x.jpg 1x,
+                    ./images/benefits-3-2x.jpg 2x
+                  "
+                  media="(min-width:1200px)"
+                />
+                <img
+                  src="./images/benefits-3-1x.jpg"
+                  width="370"
+                  alt="розробка ПЗ"
+                  class="work__img img"
+                />
                 <div class="work__subscribe-bg">
                   <p class="work__subscribe">Дизайнерські рішення</p>
                 </div>
@@ -202,20 +219,20 @@
           <ul class="team-list list">
             <li class="team-item">
               <picture>
-					<source
+                <source
                   srcset="
-                    ./images/team-desk-1-1x.jpg    1x,
+                    ./images/team-desk-1-1x.jpg 1x,
                     ./images/team-desk-1-2x.jpg 2x
                   "
                   media="(min-width:1200px)"
                 />
-					<source
-					srcset="
-					  ./images/team-tab-1-1x.jpg  1x,
-					  ./images/team-tab-1-2x.jpg 2x
-					"
-					media="(min-width:768px)"
-				 />
+                <source
+                  srcset="
+                    ./images/team-tab-1-1x.jpg 1x,
+                    ./images/team-tab-1-2x.jpg 2x
+                  "
+                  media="(min-width:768px)"
+                />
                 <source
                   srcset="
                     ./images/team-mob-1-1x.jpg 1x,
@@ -267,20 +284,20 @@
             </li>
             <li class="team-item">
               <picture>
-					<source
+                <source
                   srcset="
-                    ./images/team-desk-2-1x.jpg    1x,
+                    ./images/team-desk-2-1x.jpg 1x,
                     ./images/team-desk-2-2x.jpg 2x
                   "
                   media="(min-width:1200px)"
                 />
-					<source
-					srcset="
-					  ./images/team-tab-2-1x.jpg  1x,
-					  ./images/team-tab-2-2x.jpg 2x
-					"
-					media="(min-width:768px)"
-				 />
+                <source
+                  srcset="
+                    ./images/team-tab-2-1x.jpg 1x,
+                    ./images/team-tab-2-2x.jpg 2x
+                  "
+                  media="(min-width:768px)"
+                />
                 <source
                   srcset="
                     ./images/team-mob-2-1x.jpg 1x,
@@ -332,20 +349,20 @@
             </li>
             <li class="team-item">
               <picture>
-					<source
+                <source
                   srcset="
-                    ./images/team-desk-3-1x.jpg    1x,
+                    ./images/team-desk-3-1x.jpg 1x,
                     ./images/team-desk-3-2x.jpg 2x
                   "
                   media="(min-width:1200px)"
                 />
-					<source
-					srcset="
-					  ./images/team-tab-3-1x.jpg  1x,
-					  ./images/team-tab-3-2x.jpg 2x
-					"
-					media="(min-width:768px)"
-				 />
+                <source
+                  srcset="
+                    ./images/team-tab-3-1x.jpg 1x,
+                    ./images/team-tab-3-2x.jpg 2x
+                  "
+                  media="(min-width:768px)"
+                />
                 <source
                   srcset="
                     ./images/team-mob-3-1x.jpg 1x,
@@ -397,20 +414,20 @@
             </li>
             <li class="team-item">
               <picture>
-					<source
+                <source
                   srcset="
-                    ./images/team-desk-4-1x.jpg    1x,
+                    ./images/team-desk-4-1x.jpg 1x,
                     ./images/team-desk-4-2x.jpg 2x
                   "
                   media="(min-width:1200px)"
                 />
-					<source
-					srcset="
-					  ./images/team-tab-4-1x.jpg  1x,
-					  ./images/team-tab-4-2x.jpg 2x
-					"
-					media="(min-width:768px)"
-				 />
+                <source
+                  srcset="
+                    ./images/team-tab-4-1x.jpg 1x,
+                    ./images/team-tab-4-2x.jpg 2x
+                  "
+                  media="(min-width:768px)"
+                />
                 <source
                   srcset="
                     ./images/team-mob-4-1x.jpg 1x,
@@ -665,7 +682,28 @@
       </div>
     </div>
 
-	 <script src="./js/menu.js"></script>
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="menu-toggle js-close-menu">
+        <svg width="40" height="40">
+          <use href="./images/icons.svg#icon-close_40px"></use>
+        </svg>
+      </button>
+
+      <ul class="mobile-menu">
+        <li><a href="" class="link">About</a></li>
+        <li><a href="" class="link">Products</a></li>
+        <li><a href="" class="link">Contacts</a></li>
+        <li><a href="" class="link">Career</a></li>
+      </ul>
+    </div>
+
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/menu.js"></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>
