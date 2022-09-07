@@ -54,6 +54,9 @@
 
 .header-nav {
   display: flex;
+  @include desktop {
+    margin-left: 93px;
+  }
 }
 
 .header-nav-item:not(:last-child) {
@@ -66,6 +69,11 @@
   @include tablet {
     flex-direction: column;
     gap: 10px;
+  }
+  @include desktop {
+    flex-direction: row;
+    gap: 30px;
+    margin-left: auto;
   }
 }
 
@@ -81,6 +89,9 @@
 
   @include tablet {
     justify-content: space-between;
+  }
+  @include desktop {
+    justify-content: start;
   }
 }
 
