@@ -271,7 +271,7 @@ ul {
 }
 @media screen and (min-width: 1200px) {
   .hero-section {
-    width: 1200px;
+    width: 100%;
     max-width: 1600px;
     padding-top: 200px;
     padding-bottom: 200px;
@@ -821,6 +821,11 @@ ul {
     width: 304px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .works-item-title {
+    width: 100%;
+  }
+}
 
 .works-item-caption {
   font-size: 16px;
@@ -928,10 +933,20 @@ ul {
     width: 354px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .img-portfolio {
+    width: 370px;
+  }
+}
 
 @media screen and (min-width: 768px) {
   .works-list-item:first-child .portfolio-caption-block {
-    padding: 38px 24px;
+    padding: 20px 24px 56px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .works-list-item:first-child .portfolio-caption-block {
+    padding: 20px 24px;
   }
 }
 .address-block-link {

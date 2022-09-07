@@ -31,6 +31,9 @@
   @include tablet {
     width: 304px;
   }
+  @include desktop {
+    width: 100%;
+  }
 }
 .works-item-caption {
   font-size: 16px;
@@ -130,10 +133,19 @@
   @include tablet {
     width: 354px;
   }
+  @include desktop {
+    width: 370px;
+  }
 }
 
 @include tablet {
   .works-list-item:first-child .portfolio-caption-block {
-    padding: 38px 24px;
+    padding: 20px 24px 56px;
+  }
+}
+
+@include desktop {
+  .works-list-item:first-child .portfolio-caption-block {
+    padding: 20px 24px;
   }
 }
