@@ -27,16 +27,16 @@
   }
 }
 
-.menu .link {
+/* .menu .link {
   padding: 10px;
   color: inherit;
   text-decoration: none;
-}
+} */
 
-.menu .link:hover,
+/* .menu .link:hover,
 .menu .link:focus {
   text-decoration: underline;
-}
+} */
 
 .menu-toggle {
   min-height: 40px;
@@ -58,6 +58,9 @@
   .menu-toggle {
     display: none;
   }
+  .page-header {
+    display: none;
+  }
 }
 
 .menu-toggle:hover,
@@ -71,11 +74,11 @@
   left: 0;
   width: 100vw;
   height: 100vh;
-  padding: 32px;
-  background-color: #3f51b5;
+  padding: 48px 40px;
+  background-color: #ffffff;
   z-index: 999;
 
-  transform: translateX(100%);
+  transform: translateX(125%);
 }
 
 .menu-container.is-open {
@@ -89,15 +92,88 @@
   color: #fff;
 }
 
-.mobile-menu {
-  padding: 0;
-  margin: 0;
-  list-style: none;
+.menu-icon {
+  &:hover,
+  &:focus {
+    fill: #2196f3;
+    cursor: pointer;
+  }
 }
 
-.mobile-menu .link {
-  display: block;
-  padding: 10px;
-  color: #fff;
-  text-decoration: none;
+.menu-link {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+
+  &:hover,
+  &:focus {
+    color: #2196f3;
+  }
+}
+
+.menu-phone {
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  color: #2196f3;
+}
+
+.menu-email {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.m-soc-link {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.22;
+  letter-spacing: 0.02em;
+  color: #2196f3;
+}
+
+.menu-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+}
+
+.menu-item:not(:first-child) {
+  margin-top: 32px;
+}
+
+.m-contacts-item:last-child {
+  margin-top: 32px;
+}
+
+.menu-soc {
+  display: flex;
+  justify-content: center;
+  margin-top: 64px;
+  flex-wrap: wrap;
+}
+
+.m-soc-item {
+  padding: 0 10px;
+  &:not(:last-child)::after {
+    content: "";
+    width: 0px;
+    height: 22px;
+    left: 214px;
+    top: 726px;
+    margin-left: 10px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+  }
+}
+
+.menu-link.active {
+  color: #2196f3;
 }

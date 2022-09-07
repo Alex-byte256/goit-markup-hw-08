@@ -21,7 +21,7 @@
     <title>HW-8</title>
   </head>
   <body>
-    <!--    <header class="header">
+       <header class="header">
       <div class="container header-container">
         <a lang="en" href="./index.html" class="logo-header logo link"
           ><span class="logo-blue">Web</span>Studio</a
@@ -59,7 +59,7 @@
               >
             </li>
           </ul>
-    </header> -->
+    </header>
 
     <header class="page-header">
       <div class="container">
@@ -71,7 +71,7 @@
           aria-expanded="false"
           aria-controls="mobile-menu"
         >
-          <svg width="40" height="40">
+          <svg class="menu-icon" width="40" height="40">
             <use href="./images/icons.svg#icon-menu_40px"></use>
           </svg>
         </button>
@@ -684,17 +684,53 @@
 
     <div class="menu-container js-menu-container" id="mobile-menu">
       <button class="menu-toggle js-close-menu">
-        <svg width="40" height="40">
+        <svg class="menu-icon" width="40" height="40">
           <use href="./images/icons.svg#icon-close_40px"></use>
         </svg>
       </button>
 
-      <ul class="mobile-menu">
-        <li><a href="" class="link">About</a></li>
-        <li><a href="" class="link">Products</a></li>
-        <li><a href="" class="link">Contacts</a></li>
-        <li><a href="" class="link">Career</a></li>
-      </ul>
+    
+      <div class="menu-content">
+        <ul class="menu-list list">
+          <li class="menu-item">
+            <a class="link menu-link active" href="./index.html">Студія</a>
+          </li>
+          <li class="menu-item">
+            <a class="link menu-link" href="./portfolio.html">Портфоліо</a>
+          </li>
+          <li class="menu-item">
+            <a class="link menu-link" href="">Контакти</a>
+          </li>
+        </ul>
+        <div class="m-wrap-content">
+          <ul class="menu-contacts list">
+            <li class="m-contacts-item">
+              <a class="link menu-phone" href="tel:+380961111111"
+                >+38 096 111 11 11</a
+              >
+            </li>
+            <li class="m-contacts-item">
+              <a class="link menu-email" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+          <ul class="menu-soc list">
+            <li class="m-soc-item">
+              <a class="m-soc-link link" href="">Instagram</a>
+            </li>
+            <li class="m-soc-item">
+              <a class="m-soc-link link" href="">Twitter</a>
+            </li>
+            <li class="m-soc-item">
+              <a class="m-soc-link link" href="">Facebook</a>
+            </li>
+            <li class="m-soc-item">
+              <a class="m-soc-link link" href="">LinkedIn</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
 
     <script
