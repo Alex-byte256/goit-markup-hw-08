@@ -108,6 +108,9 @@
   &:focus {
     background-color: #188ce8;
   }
+  @include desktop {
+    padding: 10px 20px;
+  }
 }
 
 /* .hero-section {

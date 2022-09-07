@@ -20,12 +20,19 @@
   text-align: center;
 
   color: $white-color;
+  @include desktop {
+    text-align: start;
+  }
 }
 
 .soc-footer {
   margin-top: 60px;
   @include tablet {
     margin-top: 5px;
+  }
+  @include desktop {
+    margin-top: 12px;
+    margin-left: 70px;
   }
 }
 

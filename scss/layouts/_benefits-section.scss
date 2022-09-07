@@ -6,6 +6,9 @@
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+  @include tablet {
+    text-align: start;
+  }
 }
 
 .benefits__caption {
@@ -29,6 +32,9 @@
   width: 100%;
   @include tablet {
     width: calc((100% - 1 * 30px) / 2);
+  }
+  @include desktop {
+    width: calc((100% - 3 * 30px) / 4);
   }
 }
 

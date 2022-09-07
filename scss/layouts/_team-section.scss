@@ -6,6 +6,11 @@
   line-height: 0.84;
   text-align: center;
   letter-spacing: 0.03em;
+
+  @include desktop {
+    font-size: 36px;
+    line-height: 1.16;
+  }
 }
 
 .team-section {
@@ -38,6 +43,9 @@
     flex-direction: row;
     flex-wrap: wrap;
   }
+  @include desktop {
+    margin-top: 50px;
+  }
 }
 
 .team-caption-block {
@@ -53,6 +61,9 @@
   border-radius: 0px 0px 4px 4px;
   @include tablet {
     width: calc((100% - 1 * 30px) / 2);
+  }
+  @include desktop {
+    width: calc((100% - 3 * 30px) / 4);
   }
 }
 

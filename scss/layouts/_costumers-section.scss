@@ -8,6 +8,10 @@
   letter-spacing: 0.03em;
 
   color: $title-color;
+  @include desktop {
+    font-size: 36px;
+    line-height: 1.16;
+  }
 }
 
 .costumers-list {
@@ -16,6 +20,9 @@
   flex-wrap: wrap;
 
   margin-top: 30px;
+  @include desktop {
+    margin-top: 50px;
+  }
 }
 
 .costumers-link {
@@ -44,6 +51,9 @@
   width: calc((100% - 1 * 30px) / 2);
   @include tablet {
     width: calc((100% - 2 * 30px) / 3);
+  }
+  @include desktop {
+    width: calc((100% - 5 * 30px) / 6);
   }
 }
 
