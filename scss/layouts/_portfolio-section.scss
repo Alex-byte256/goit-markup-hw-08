@@ -53,6 +53,9 @@
     max-width: 100%;
     justify-content: center;
   }
+  @include desktop {
+    column-gap: 8px;
+  }
 }
 
 /* .portfolio-list-item:not(:last-child) {
@@ -76,6 +79,12 @@
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+  @include tablet {
+    margin-top: 30px;
+  }
+  @include desktop {
+    margin-top: 50px;
+  }
 }
 
 .portfolio-caption-block {
